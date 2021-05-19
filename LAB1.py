@@ -29,5 +29,5 @@ plt.subplot(1,2,2)
 
 # 第二个图的标题为f(x)=sin(\omega x)，\omega = \frac{3}{8} \pi
 plt.title(r'$f(x)=sin(\omega x), \omega = \frac{3}{8} \pi$')
-plt.plot(x1, y1)  # x1为x轴数据, y1为y轴数据
+plt.plot(x, y1)  # x为x轴数据, y1为y轴数据
 plt.show()  # 显示图片
