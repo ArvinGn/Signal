@@ -8,7 +8,7 @@ def stretch(wave, factor):
     wave.framerate /= factor
 
 
-stretch(wave3, 0.5)
+stretch(wave3, 1.5)
 wave3.write('tt1.wav')
 
 wave3.plot()
